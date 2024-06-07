@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    @font-face {
+        font-family: Ember-Bold;
+        src: url('./src/components/assets/fonts/EmberBold.ttf');
+    }
+
+    @font-face {
+        font-family: Ember-Italic;
+        src: url('./src/components/assets/fonts/EmberItalic.ttf');
+    }
+
+    @font-face {
+        font-family: Ember-Regular;
+        src: url('./src/components/assets/fonts/EmberRegular.ttf');
+    }
+
+    @font-face {
+        font-family: lugrasimo-regular;
+        src: url('./src/components/assets/fonts/Lugrasimo-Regular.ttf');
+    }
+    .cart-bold{
+        font-family: 'Ember-bold';
+    }
+    .home-image{
+        mask-image: linear-gradient(rgb(0 0 0 / 1), rgb(0 0 0 / 1) 45%, rgb(0 0 0 / 0));
+    }
+    .i{
+        font-family: 'lugrasimo-regular';
+    }
+}
